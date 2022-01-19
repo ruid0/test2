@@ -1,5 +1,6 @@
 module.exports = {
     basePath: "/blog",
+    trailingSlash: false,
     async redirects() {
         return [
             {
